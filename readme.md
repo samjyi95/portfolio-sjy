@@ -110,7 +110,7 @@ You will want to be at this point before your final project is due, so you may s
 
 Don't stress! Even at the end of the course you still have an extra week to polish things up if you need it! Cheers to getting this far!
 
-![](https://media.giphy.com/media/2aJ543tBJqvDpiJeg4/giphy.gif)
+![](https://media.giphy.com/media/l3c5RJr6yRKyyIw00/giphy.gif)
 
 ## Resource List
 
