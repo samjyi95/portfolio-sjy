@@ -33,7 +33,15 @@ You should aim to work on your portfolio in small increments so that it's done o
 
 ## CHECKPOINTS!
 
-### Checkpoint 1: Hello World!
+### Checkpoint 1: Wireframes 
+
+Following your lesson on Agile Methodolgy, you should have a good idea what a wireframe is and what it entails. Make a wireframe for your portfolio site. Take some time to think about special features you might want (e.g., a carousel or modal dialog for displaying projects), and how a user will navigate your site. Will you have smooth scrolling? Will your site be on separate pages? These are some choices to make now. You will have a better idea how to implement these features by the end of the course than you do now, so don't worry if you don't know exactly how to do something yet.
+
+> Protip: This is a great time to brainstorm about color pallettes. There are many tools you can use online to generate color pallettes, such as [Canva](https://www.canva.com/color-palette/), [ColorMind](http://colormind.io/), or [ColorSpace](https://mycolor.space/). They each work differently so check them all out and bookmark your favorite!
+
+> Protip: Make sure you think about how your site will appear on a phone or tablet as well as a desktop! Making a separate wireframe for a phone-sized screen is a great idea.
+
+### Checkpoint 2: Hello World!
 
 At this point, you have a portfolio site up and hosted on Github pages. The code itself probably looks about like this:
 
@@ -49,14 +57,6 @@ That's okay! Nothing really needs to be on there at this point! What's important
 * You have a cloned copy of the repo on your computer, and a way of tracking commit history on your portfolio.
 
 > Now, whenever you have time, you can make small changes and check them in, which will automatically update your site!
-
-### Checkpoint 2: Wireframes 
-
-Following your lesson on Agile Methodolgy, you should have a good idea what a wireframe is and what it entails. Make a wireframe for your portfolio site. Take some time to think about special features you might want (e.g., a carousel or modal dialog for displaying projects), and how a user will navigate your site. Will you have smooth scrolling? Will your site be on separate pages? These are some choices to make now. You will have a better idea how to implement these features by the end of the course than you do now, so don't worry if you don't know exactly how to do something yet.
-
-> Protip: This is a great time to brainstorm about color pallettes. There are many tools you can use online to generate color pallettes, such as [Canva](https://www.canva.com/color-palette/), [ColorMind](http://colormind.io/), or [ColorSpace](https://mycolor.space/). They each work differently so check them all out and bookmark your favorite!
-
-> Protip: Make sure you think about how your site will appear on a phone or tablet as well as a desktop! Making a separate wireframe for a phone-sized screen is a great idea.
 
 ### Checkpoint 3: 25% done
 
