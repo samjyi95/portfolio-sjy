@@ -1,3 +1,26 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+#projects {
+    background-color: #cfd8dc;
+}
+.right-align {
+    margin: 0;
+    padding: 0;
+    background-color: #cfd8dc; 
+    /* float: right; */
+    /* width: 100%; */
+    /* clear: both; */
+}
+/* .otherLevels {
+    float: left;
+    clear: both;
+} */
+.space {
+    margin: 0;
+    padding: 0;
+    /* clear: both; */
+}
