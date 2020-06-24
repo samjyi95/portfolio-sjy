@@ -16,39 +16,59 @@
         <div class="nav-wrapper blue-grey">
             <a href="#" class="brand-logo"> </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#lAndS">Languages & Skills</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#lAndS">LANGUAGES AND SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
     </nav>
     <div >
         <h3 >ABOUT</h3>
         <div id="about">
-            <div>
+            <div >
                 <h5>BRAND STATEMENT</h5>
                 <p>I am a full stack software engineer with a desire to create/develop applications that bring users </p>
                 <p>reliability, creativity and comfort, and when others see my work or use my work that it may spark</p>
                 <p>a creative epiphany or desire to create. </p>
             </div>
-            <div id="resume">
-                <a href="resources/resume.pdf" target="blank">Resume</a>
-            </div>
-            <div>
+            <div class="items">
                 <img src="resources/cover.jpeg" id="coverpic"/>
+            </div>
+            <div >
+                <img src="resources/resume.png"><a href="resources/resume.pdf" target="blank">Resume</a></img> 
+                
             </div>
         </div>
     </div>
     
     <div id="projects" class="right-align">
         <h3 >PROJECTS</h3>
-        <p>ALL MY FAVORITE PROJECTS</p>
-        <h5>Flash</h5>
-        <h5>Garagé</h5>
-        <h5>Animania</h5>
+        <div class="projectsWrapper">
+            <h5>Flash</h5>
+            <div class="proj">
+                <p class="descriptions">Mern Stack application creating an environment for user to share pictures with others</p>
+                <a href="#" class="outer"><span class="inner"> </span></a>
+            </div>
+            
+            <h5>Garagé</h5>
+            <div class="proj">
+                <a href="#" class="outer"><span class="inner2"> </span></a>
+                <p class="descriptions">
+                    A MERN Stack application connecting users in a community around the idea of “Garage Sale”. 
+                    Users are able to browse through online garage sales or host their own.
+                </p>
+            </div>
+            <h5>Animania</h5>
+            <div class="proj">
+                <p class="descriptions">
+                    Collaborated with 2 other developers to create MERN Stack application where users were able to 
+                    search information on shows and create specific preferences via commenting /adding to playlists.
+                </p>
+                <a href="#" class="outer"><span class="inner3"> </span></a>
+            </div>
+        </div>
     </div>
-    
     <div class="left-align">
         <h3 id="lAndS">LANGUAGE & SKILLS</h3>
         <div class="container">
@@ -68,8 +88,12 @@
         </div>
     </div>
     <div id="Contact" class="right-align">
-        <h3 >CONTACT</h3>
-        <p>MY RESUME MUAH</p>
+        <h3 id="contact">CONTACT </h3>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/samjyi" target="blank">LinkedIn</a>
+            <a href="https://github.com/samjyi95" target="blank">Github</a>
+            
+        </div>
         
     </div>
     <script src="script.js"></script>

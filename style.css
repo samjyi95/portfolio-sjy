@@ -40,6 +40,93 @@ h3 {
 }
 #about {
     display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px;
+    padding: 10px;
+}
+.items {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.projectsWrapper {
+    padding-right: 50px !important;
+}
+.outer {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+}
+.inner {
+    width: 1600px;
+    height: 200px;
+    cursor: pointer;
+    display: block;
+    background: url(resources/flash/flash0.png) 0 0, 
+    /* url(resources/flash/flash1.png) 400px 0,  */
+    url(resources/flash/flash2.png) 400px 0, 
+    url(resources/flash/flash3.png) 800px 0;
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+.inner2 {
+    width: 1600px;
+    height: 200px;
+    cursor: pointer;
+    display: block;
+    background: url(resources/garage/garage0.png) 0 0, 
+    url(resources/garage/garage1.png) 400px 0, 
+    url(resources/garage/garage2.png) 800px 0;
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+.inner3 {
+    width: 1600px;
+    height: 200px;
+    cursor: pointer;
+    display: block;
+    background: url(resources/animania/animania1.png) 0 0, 
+    url(resources/animania/animania2.png) 400px 0, 
+    url(resources/flash/flash3.png) 800px 0;
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+.outer:hover .inner, .outer:focus .inner, 
+.outer:hover .inner2, .outer:focus .inner2, 
+.outer:hover .inner3, .outer:focus .inner3 {
+    animation: swap 18s linear infinite;
+}
+
+.outer:focus {
+    border: 2px solid red;
+}
+
+@keyframes swap {
+    0% {
+        transform: translate3d(0, 0, 0)
+    }
+    50% {
+        transform: translate3d(-800px,0, 0)
+    }
+    100% {
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.proj {
+    display: inline-flex;
+}
+.descriptions {
+    width: 500px;
+    text-align: left !important;
+    margin: 10px;
+}
+
+.icons{
+    text-align: center;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
 }
