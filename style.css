@@ -49,6 +49,16 @@ h3 {
 }
 .projectsWrapper {
     padding-right: 50px !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.proj {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .outer {
     display: block;
@@ -116,13 +126,14 @@ h3 {
     }
 }
 
-.proj {
-    display: inline-flex;
-}
+
 .descriptions {
     width: 500px;
     text-align: left !important;
     margin: 10px;
+}
+span {
+    text-decoration: underline;
 }
 
 .icons{
