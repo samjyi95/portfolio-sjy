@@ -13,7 +13,7 @@
 <body>
     <h1>PORTFOLIO | SJY</h1>
     <nav>
-        <div class="nav-wrapper blue-grey">
+        <div class="nav-wrapper blue-grey darken-4">
             <a href="#" class="brand-logo"> </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#about">ABOUT</a></li>
@@ -23,10 +23,10 @@
             </ul>
         </div>
     </nav>
-    <div >
-        <h3 >ABOUT</h3>
+    <div class="evens">
+        <h3 class='segmentHeading'>ABOUT</h3>
         <div id="about">
-            <div >
+            <div class="bio">
                 <h5>BRAND STATEMENT</h5>
                 <p>I am a full stack software engineer with a desire to create/develop applications that bring users 
                     reliability, creativity and comfort, and when others see my work or use my work that it may spark 
@@ -38,6 +38,7 @@
             <div >
                 
                 <a href="resources/resume.pdf" target="blank">
+                    <h5>RESUME</h5>
                     <img src="resources/resume.png" id="resumeIcon"/>
                 </a>
             </div>
@@ -45,7 +46,7 @@
     </div>
     
     <div id="projects" class="right-align">
-        <h3 >PROJECTS</h3>
+        <h3 class='segmentHeading'>PROJECTS</h3>
         <div>
             <h5>Flash</h5>
             <div class="projectsWrapper">
@@ -54,13 +55,13 @@
                         <span>Technology Used: BCrypt, Cloudinary,  Express EJS Layouts, Javascript, Sequelize.</span>
                         Mern Stack application creating an environment for user to share pictures with others
                     </p>
-                    <a href="#" class="outer"><span class="inner"> </span></a>
+                    <a href="https://flash-sjy.herokuapp.com/" target='blank' class="outer"><span class="inner"> </span></a>
                 </div>
             </div>
             <h5>Garagé</h5>
             <div class="projectsWrapper">
                 <div class="proj">
-                    <a href="#" class="outer"><span class="inner2"> </span></a>
+                    <a href="http://sam-guy-garage.herokuapp.com/" target='blank' class="outer"><span class="inner2"> </span></a>
                     <p class="descriptions">
                         <span>Technologies Used: Javascript, JWT tokens, Mongoose, React, Reactstrap</span>
                         A MERN Stack application connecting users in a community around the idea of “Garage Sale”. 
@@ -76,13 +77,13 @@
                         Collaborated with 2 other developers to create MERN Stack application where users were able to 
                         search information on shows and create specific preferences via commenting /adding to playlists.
                     </p>
-                    <a href="#" class="outer"><span class="inner3"> </span></a>
+                    <a href="https://animania-client.herokuapp.com/" target='blank' class="outer"><span class="inner3"> </span></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="left-align">
-        <h3 id="lAndS">LANGUAGE & SKILLS</h3>
+        <h3 id="lAndS" class='segmentHeading'>LANGUAGE & SKILLS</h3>
         <div class="container">
             <div class="row">
                 <div class="col s4">Javascript</div>
@@ -105,13 +106,10 @@
             <a href="https://www.linkedin.com/in/samjyi" target="blank">
                 <img src="resources/linkedIn.png" />
             </a>
-
             <a href="https://github.com/samjyi95" target="blank">
                 <img src="resources/github.png"/>
             </a>
-            
         </div>
-        
     </div>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

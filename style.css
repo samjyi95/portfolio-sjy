@@ -1,14 +1,44 @@
+body {
+    background-color: black;
+}
 h1 {
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+    color: white;
+}
+p {
+    color: #7A7A7A;
+}
+.row {
+    color: white;
+}
+.evens {
+    /* background-color: black; */
+    background-color: #2b2b2b;
+    margin: 0px;
+    padding: 0px;
+}
+.segmentHeading {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #projects {
-    background-color: #cfd8dc;
+    /* background-color: #2b2b2b; */
+    background-color: #191919;
 }
 #Contact{
-    background-color: #cfd8dc;
+    /* background-color: #2b2b2b; */
+    background-color: #191919;
 }
 .left-align {
     margin: 0;
@@ -35,13 +65,21 @@ h3 {
 #coverpic {
     height:300px;
     width: 300px;
-    border-radius: 50%;
-    
+    border-radius: 50%;   
+}
+#resumeIcon {
+    width: 140px;
+    height: 200px;
 }
 #about {
     display: inline-flex;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .items {
     margin-left: 100px;
@@ -126,7 +164,9 @@ h3 {
     }
 }
 
-
+.bio{
+    width: 500px;
+}
 .descriptions {
     width: 500px;
     text-align: left !important;
@@ -138,9 +178,6 @@ span {
 
 .icons{
     text-align: center;
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-}
-#resumeIcon {
-    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
