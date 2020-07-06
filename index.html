@@ -25,23 +25,33 @@
     </nav>
     <div class="evens">
         <h3 class='segmentHeading'>ABOUT</h3>
-        <div id="about">
-            <div class="bio">
-                <h5>BRAND STATEMENT</h5>
-                <p>I am a full stack software engineer with a desire to create/develop applications that bring users 
-                    reliability, creativity and comfort, and when others see my work or use my work that it may spark 
-                    a creative epiphany or desire to create. </p>
-            </div>
+        <div class='tab'>
+            <button class='tablinks' onclick="openTab(event, 'brandStatement')" id="defaultOpen"><h5>BRAND STATEMENT</h5></button>
+            <button class='tablinks' onclick="openTab(event, 'education')"><h5>EDUCATION</h5></button>
+            <button class='tablinks' onclick="openTab(event, 'resume')"><h5>RESUME</h5></button>
+        </div>
+        <div id="brandStatement" class='tabz'>
+            <p class="statements">I am a full stack software engineer with a desire to create/develop applications that bring users 
+                reliability, creativity and comfort, and when others see my work or use my work that it may spark 
+                a creative epiphany or desire to create.</p>
+        </div>
+        <div id="education" class='tabz'>
+            <p class="statements">General Assembly Full-Stack engineering immersive course is an intensive 12-week, 450+ hour program 
+                focused on development fundamentals, object-oriented programming, MVC frameworks, data modeling 
+                and team collaboration strategies.</p>
+        </div>
+        <div id="resume" class='tabz'>
+            <a href="resources/resume.pdf" target="blank">
+                <img src="resources/resume.png" id="resumeIcon" />
+            </a>
+            <p>(click to view)</p>
+        </div>
+        <div id="about"></div>
+            
             <div class="items">
                 <img src="resources/cover.jpeg" id="coverpic"/>
             </div>
-            <div >
-                
-                <a href="resources/resume.pdf" target="blank">
-                    <h5>RESUME</h5>
-                    <img src="resources/resume.png" id="resumeIcon"/>
-                </a>
-            </div>
+            
         </div>
     </div>
     
