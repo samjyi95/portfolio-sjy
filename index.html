@@ -12,7 +12,7 @@
 
 <body>
     <h1>PORTFOLIO | SJY</h1>
-    <nav>
+    <nav class ="navbar">
         <div class="nav-wrapper blue-grey darken-4">
             <a href="#" class="brand-logo"> </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -26,14 +26,14 @@
     <div class="evens">
         <h3 class='segmentHeading'>ABOUT</h3>
         <div class='tab'>
-            <button class='tablinks' onclick="openTab(event, 'brandStatement')" id="defaultOpen"><h5>BRAND STATEMENT</h5></button>
+            <button class='tablinks' onclick="openTab(event, 'aboutMe')" id="defaultOpen"><h5>ABOUT ME</h5></button>
             <button class='tablinks' onclick="openTab(event, 'education')"><h5>EDUCATION</h5></button>
             <button class='tablinks' onclick="openTab(event, 'resume')"><h5>RESUME</h5></button>
         </div>
-        <div id="brandStatement" class='tabz'>
+        <div id="aboutMe" class='tabz'>
             <p class="statements">I am a full stack software engineer with a desire to create/develop applications that bring users 
-                reliability, creativity and comfort, and when others see my work or use my work that it may spark 
-                a creative epiphany or desire to create.</p>
+                reliability, creativity and comfort. My hope is that when others see my work or apply my methods that it may spark a
+                creative epiphany or desire to create. </p>
         </div>
         <div id="education" class='tabz'>
             <p class="statements">General Assembly Full-Stack engineering immersive course is an intensive 12-week, 450+ hour program 
@@ -42,7 +42,7 @@
         </div>
         <div id="resume" class='tabz'>
             <a href="resources/resume.pdf" target="blank">
-                <img src="resources/resume.png" id="resumeIcon" />
+                <img src="resources/resume.png" class="responsive-img" id="resumeIcon" />
             </a>
             <p>(click to view)</p>
         </div>
@@ -112,8 +112,17 @@
     </div>
     <div id="Contact" class="right-align">
         <h3 id="contact">CONTACT </h3>
+        <div>
+            <form method="POST" action="mailto:samjyi95@gmail.com" enctype="multipart/form-data">
+                <input id="name" name="name" type='text' placeholder="Your Name" required>
+                <input id="email" name="email" type='text' placeholder="Your Name" required>
+                <input id="subject" name="subject" type='text'>
+                <textarea name="body" id="body" cols="30" rows="10"></textarea>
+                <input type="submit" value="submit>">
+            </form>
+        </div>
         <div class="icons">
-            <a href="https://www.linkedin.com/in/samjyi" target="blank">
+            <a href="https://www.linkedin.com/in/samjyi" target="blank" >
                 <img src="resources/linkedIn.png" />
             </a>
             <a href="https://github.com/samjyi95" target="blank">
@@ -123,6 +132,12 @@
     </div>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("user_MU2MzoWUYHh8FcAuUgQOh");
+    })();
+</script>
 </body>
 
 </html>

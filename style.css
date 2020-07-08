@@ -1,5 +1,9 @@
+html {
+    width: 100%;
+}
 body {
     background-color: black;
+    width: 100%;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -21,8 +25,8 @@ p {
     
     font-size: 16.5px;
 }
-.row {
-    color: white;
+.nav-wrapper.blue-grey.darken-4 {
+    width: 100%;
 }
 .evens {
     /* background-color: black; */
@@ -37,6 +41,9 @@ p {
 #projects {
     /* background-color: #2b2b2b; */
     background-color: #191919;
+}
+.row {
+    color: white;
 }
 #Contact{
     /* background-color: #2b2b2b; */
@@ -92,11 +99,13 @@ p {
   /* Change background color of buttons on hover */
 .tab button:hover {
     background-color: #ddd;
+    width: 100%;
 }
 
   /* Create an active/current "tab button" class */
 .tab button.active {
     background-color: #ccc;
+    width: 100%;
 }
 
   /* Style the tab content */
@@ -239,4 +248,17 @@ span {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+@media (max-device-width: 480px) {
+    h1 {
+        font-size: 40px;
+        max-width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+    #projects {
+        width: 100%;
+    }
 }

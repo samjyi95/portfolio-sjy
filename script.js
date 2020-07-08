@@ -15,3 +15,8 @@ function openTab(evt, section) {
     console.log('Ran thru but did it make changes?')
 }
 document.getElementById("defaultOpen").click();
+
+function youGotMail(str) {
+    var link = "mailto:samjyi95@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
+    location.href = link;
+}
