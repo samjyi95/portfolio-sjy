@@ -20,3 +20,8 @@ function youGotMail(str) {
     var link = "mailto:samjyi95@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
     location.href = link;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+    });

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio: S.J.Y.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -14,7 +15,8 @@
     <h1>PORTFOLIO | SJY</h1>
     <nav class ="navbar">
         <div class="nav-wrapper blue-grey darken-4">
-            <a href="#" class="brand-logo"> </a>
+            
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
@@ -23,6 +25,12 @@
             </ul>
         </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#lAndS">LANGUAGES AND SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
     <div class="evens">
         <h3 class='segmentHeading'>ABOUT</h3>
         <div class='tab'>
@@ -31,12 +39,12 @@
             <button class='tablinks' onclick="openTab(event, 'resume')"><h5>RESUME</h5></button>
         </div>
         <div id="aboutMe" class='tabz'>
-            <p class="statements">I am a full stack software engineer with a desire to create/develop applications that bring users 
+            <p class="statements ">I am a full stack software engineer with a desire to create/develop applications that bring users 
                 reliability, creativity and comfort. My hope is that when others see my work or apply my methods that it may spark a
                 creative epiphany or desire to create. </p>
         </div>
         <div id="education" class='tabz'>
-            <p class="statements">General Assembly Full-Stack engineering immersive course is an intensive 12-week, 450+ hour program 
+            <p class="statements ">General Assembly Full-Stack engineering immersive course is an intensive 12-week, 450+ hour program 
                 focused on development fundamentals, object-oriented programming, MVC frameworks, data modeling 
                 and team collaboration strategies.</p>
         </div>
@@ -51,7 +59,6 @@
             <div class="items">
                 <img src="resources/cover.jpeg" id="coverpic"/>
             </div>
-            
         </div>
     </div>
     
@@ -112,7 +119,7 @@
     </div>
     <div id="Contact" class="right-align">
         <h3 id="contact">CONTACT </h3>
-        <div>
+        <!-- <div>
             <form method="POST" action="mailto:samjyi95@gmail.com" enctype="multipart/form-data">
                 <input id="name" name="name" type='text' placeholder="Your Name" required>
                 <input id="email" name="email" type='text' placeholder="Your Name" required>
@@ -120,7 +127,7 @@
                 <textarea name="body" id="body" cols="30" rows="10"></textarea>
                 <input type="submit" value="submit>">
             </form>
-        </div>
+        </div> -->
         <div class="icons">
             <a href="https://www.linkedin.com/in/samjyi" target="blank" >
                 <img src="resources/linkedIn.png" />

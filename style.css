@@ -1,6 +1,6 @@
 html {
     width: 100%;
-}
+    }
 body {
     background-color: black;
     width: 100%;
@@ -74,10 +74,8 @@ p {
 
 .tab {
     float: left;
-    
     width: 20%;
     height: 300px;
-    
 }
 
   /* Style the buttons inside the tab */
@@ -114,7 +112,7 @@ p {
     padding: 0px 12px;
     width: 30%;
     border-left: none;
-    height: 300px;
+    height: auto;
     
 }
 
@@ -150,11 +148,10 @@ p {
 }
 
 .items {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 auto;
 }
 .projectsWrapper {
-    padding-right: 50px !important;
+    /* padding-right: 50px !important; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -251,14 +248,52 @@ span {
 }
 
 @media (max-device-width: 480px) {
+    html {
+        text-align: center;
+        padding-left: 20px;
+    }
     h1 {
         font-size: 40px;
         max-width: 100%;
     }
-    .navbar {
+    h3 {
+        font-size: 30px;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    /* .navbar {
+        width: 100%;
+    } */
+    .tab {
+        width: 100%;
+        height: auto;
+    }
+    .tabz{
         width: 100%;
     }
-    #projects {
+    #coverpic {
+        width: 200px;
+        height: 200px;
+    }
+    /* #projects {
+        width: 100%;
+    } */
+    /* 
+    .projectsWrapper {
+        padding:10px;
+    } */
+    .proj {
+        display: block;
+    }
+    .descriptions {
+        width: auto;
+    }
+    /* .outer {
         width: 100%;
     }
+    .descriptions {
+        width: 100%;
+    
+    } */
 }
