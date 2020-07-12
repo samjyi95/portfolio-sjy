@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="left-align">
+    <div class="left-align"> 
         <h3 id="lAndS" class='segmentHeading'>LANGUAGE & SKILLS</h3>
         <div class="container">
             <div class="row">
@@ -120,7 +120,12 @@
     <div id="Contact" class="right-align">
         <h3 id="contact">CONTACT </h3>
         <!-- <div>
-            <form method="POST" action="mailto:samjyi95@gmail.com" enctype="multipart/form-data">
+            <form 
+            className="contactMe" 
+            method="POST" 
+            action="mailto:samjyi95@gmail.com" 
+            enctype="multipart/form-data"
+            onSubmit={handleSubmit}>
                 <input id="name" name="name" type='text' placeholder="Your Name" required>
                 <input id="email" name="email" type='text' placeholder="Your Name" required>
                 <input id="subject" name="subject" type='text'>

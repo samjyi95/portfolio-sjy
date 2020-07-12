@@ -16,9 +16,15 @@ function openTab(evt, section) {
 }
 document.getElementById("defaultOpen").click();
 
-function youGotMail(str) {
-    var link = "mailto:samjyi95@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
-    location.href = link;
+//I think i need to put all this in a fetch call?
+handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+        "samjyi95_gmail_com",
+        "hellosam",
+        "contactMe", //contactMe is the className for the form
+        "user_MU2MzoWUYHh8FcAuUgQOh"
+    )
 }
 
 document.addEventListener('DOMContentLoaded', function() {
