@@ -13,9 +13,9 @@
 
 <body>
     <h1>PORTFOLIO | SJY</h1>
-    <nav class ="navbar">
+    <nav class="navbar">
         <div class="nav-wrapper blue-grey darken-4">
-            
+
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#about">ABOUT</a></li>
@@ -34,18 +34,27 @@
     <div class="evens">
         <h3 class='segmentHeading'>ABOUT</h3>
         <div class='tab'>
-            <button class='tablinks' onclick="openTab(event, 'aboutMe')" id="defaultOpen"><h5>ABOUT ME</h5></button>
-            <button class='tablinks' onclick="openTab(event, 'education')"><h5>EDUCATION</h5></button>
-            <button class='tablinks' onclick="openTab(event, 'resume')"><h5>RESUME</h5></button>
+            <button class='tablinks' onclick="openTab(event, 'aboutMe')" id="defaultOpen">
+                <h5>ABOUT ME</h5>
+            </button>
+            <button class='tablinks' onclick="openTab(event, 'education')">
+                <h5>EDUCATION</h5>
+            </button>
+            <button class='tablinks' onclick="openTab(event, 'resume')">
+                <h5>RESUME</h5>
+            </button>
         </div>
         <div id="aboutMe" class='tabz'>
-            <p class="statements ">I am a full stack software engineer with a desire to create/develop applications that bring users 
-                reliability, creativity and comfort. My hope is that when others see my work or apply my methods that it may spark a
+            <p class="statements ">I am a full stack software engineer with a desire to create/develop applications that
+                bring users
+                reliability, creativity and comfort. My hope is that when others see my work or apply my methods that it
+                may spark a
                 creative epiphany or desire to create. </p>
         </div>
         <div id="education" class='tabz'>
-            <p class="statements ">General Assembly Full-Stack engineering immersive course is an intensive 12-week, 450+ hour program 
-                focused on development fundamentals, object-oriented programming, MVC frameworks, data modeling 
+            <p class="statements ">General Assembly Full-Stack engineering immersive course is an intensive 12-week,
+                450+ hour program
+                focused on development fundamentals, object-oriented programming, MVC frameworks, data modeling
                 and team collaboration strategies.</p>
         </div>
         <div id="resume" class='tabz'>
@@ -55,13 +64,13 @@
             <p>(click to view)</p>
         </div>
         <div id="about"></div>
-            
-            <div class="items">
-                <img src="resources/cover.jpeg" id="coverpic"/>
-            </div>
+
+        <div class="items">
+            <img src="resources/cover.jpeg" id="coverpic" />
         </div>
     </div>
-    
+    </div>
+
     <div id="projects" class="right-align">
         <h3 class='segmentHeading'>PROJECTS</h3>
         <div>
@@ -69,19 +78,21 @@
             <div class="projectsWrapper">
                 <div class="proj">
                     <p class="descriptions">
-                        <span>Technology Used: BCrypt, Cloudinary,  Express EJS Layouts, Javascript, Sequelize.</span>
+                        <span>Technology Used: BCrypt, Cloudinary, Express EJS Layouts, Javascript, Sequelize.</span>
                         Mern Stack application creating an environment for user to share pictures with others
                     </p>
-                    <a href="https://flash-sjy.herokuapp.com/" target='blank' class="outer"><span class="inner"> </span></a>
+                    <a href="https://flash-sjy.herokuapp.com/" target='blank' class="outer"><span class="inner">
+                        </span></a>
                 </div>
             </div>
             <h5>Garagé</h5>
             <div class="projectsWrapper">
                 <div class="proj">
-                    <a href="http://sam-guy-garage.herokuapp.com/" target='blank' class="outer"><span class="inner2"> </span></a>
+                    <a href="http://sam-guy-garage.herokuapp.com/" target='blank' class="outer"><span class="inner2">
+                        </span></a>
                     <p class="descriptions">
                         <span>Technologies Used: Javascript, JWT tokens, Mongoose, React, Reactstrap</span>
-                        A MERN Stack application connecting users in a community around the idea of “Garage Sale”. 
+                        A MERN Stack application connecting users in a community around the idea of “Garage Sale”.
                         Users are able to browse through online garage sales or host their own.
                     </p>
                 </div>
@@ -91,15 +102,16 @@
                 <div class="proj">
                     <p class="descriptions">
                         <span>Technologies Used: Javascript, Mongoose, React, CSS</span>
-                        Collaborated with 2 other developers to create MERN Stack application where users were able to 
+                        Collaborated with 2 other developers to create MERN Stack application where users were able to
                         search information on shows and create specific preferences via commenting /adding to playlists.
                     </p>
-                    <a href="https://animania-client.herokuapp.com/" target='blank' class="outer"><span class="inner3"> </span></a>
+                    <a href="https://animania-client.herokuapp.com/" target='blank' class="outer"><span class="inner3">
+                        </span></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="left-align"> 
+    <div class="left-align">
         <h3 id="lAndS" class='segmentHeading'>LANGUAGE & SKILLS</h3>
         <div class="container">
             <div class="row">
@@ -107,10 +119,10 @@
                 <div class="col s4">Python</div>
                 <div class="col s4">React</div>
                 <div class="col s4">Express</div>
-                <div class="col s4">JSON</div>            
+                <div class="col s4">JSON</div>
                 <div class="col s4">jQuery</div>
                 <div class="col s4">Node.js</div>
-                <div class="col s4">SQL</div>                
+                <div class="col s4">SQL</div>
                 <div class="col s4">Mongo</div>
                 <div class="col s4">Postgres</div>
                 <div class="col s4">Sequel</div>
@@ -119,37 +131,44 @@
     </div>
     <div id="Contact" class="right-align">
         <h3 id="contact">CONTACT </h3>
-        <!-- <div>
-            <form 
-            className="contactMe" 
-            method="POST" 
-            action="mailto:samjyi95@gmail.com" 
-            enctype="multipart/form-data"
-            onSubmit={handleSubmit}>
-                <input id="name" name="name" type='text' placeholder="Your Name" required>
-                <input id="email" name="email" type='text' placeholder="Your Name" required>
-                <input id="subject" name="subject" type='text'>
-                <textarea name="body" id="body" cols="30" rows="10"></textarea>
-                <input type="submit" value="submit>">
+        <div>
+            <form id="myform" method="post">
+                <label>name</label>
+                <input type="text" name="name" placeholder="NAME" />
+                <label>phone</label>
+                <input type="text" name="phone" placeholder="PHONE"/>
+                <label>email</label>
+                <input type="text" name="email" placeholder="EMAIL"/>
+                <label>comment</label>
+                <textarea type="text" name="comment" placeholder="ASK ME ANYTHING"></textarea>
+                <br><br>
+                <button>
+                    Send
+                </button>
+
             </form>
-        </div> -->
+        </div>
         <div class="icons">
-            <a href="https://www.linkedin.com/in/samjyi" target="blank" >
+            <a href="https://www.linkedin.com/in/samjyi" target="blank">
                 <img src="resources/linkedIn.png" />
             </a>
             <a href="https://github.com/samjyi95" target="blank">
-                <img src="resources/github.png"/>
+                <img src="resources/github.png" />
             </a>
         </div>
     </div>
     <script src="script.js"></script>
+    <!-- for the email -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- for materialize bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- also for the email including the function below  -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<script type="text/javascript">
-    (function(){
-        emailjs.init("user_MU2MzoWUYHh8FcAuUgQOh");
-    })();
-</script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_MU2MzoWUYHh8FcAuUgQOh");
+        })();
+    </script>
 </body>
 
 </html>

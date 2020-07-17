@@ -247,6 +247,26 @@ span {
     padding-right: 50px;
 }
 
+#myform {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    color: white;
+}
+input::placeholder {
+    opacity: .3;
+    font-family: 'Montserrat', sans-serif;
+}
+textarea{
+    color: white;
+}
+textarea::placeholder {
+    opacity: .3;
+    font-family: 'Montserrat', sans-serif;
+}
+
 @media (max-device-width: 480px) {
     html {
         text-align: center;
@@ -320,12 +340,9 @@ span {
     .outer {
         width: 95vw;
     }
-    /* .left-align, .right-align {
-        min-height: 100vh;
-    } */
-    
-    /* .descriptions {
-        width: 100%;
-    
-    }  */
+    #myform {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
