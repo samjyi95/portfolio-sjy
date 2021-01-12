@@ -246,7 +246,7 @@ span {
 
 /* styling section for the logos (web version) */
 .container {
-    /* text-align: center; */
+    text-align: center;
 }
 .col {
     padding: 5px;
