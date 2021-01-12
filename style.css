@@ -65,13 +65,8 @@ p {
     padding: 0;
     /* clear: both; */
 }
-.container {
-    text-align: center;
-}
-.col {
-    padding: 5px;
-}
 
+/* about me style section */
 .tab {
     float: left;
     width: 20%;
@@ -113,6 +108,7 @@ p {
     width: 30%;
     border-left: none;
     height: auto;
+    margin: 0 50px 0 50px;
     
 }
 
@@ -147,8 +143,9 @@ p {
     text-align: center;
 }
 
-.items {
-    margin: 0 auto;
+.profilepic {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .projectsWrapper {
     /* padding-right: 50px !important; */
@@ -247,6 +244,24 @@ span {
     padding-right: 50px;
 }
 
+/* styling section for the logos (web version) */
+.container {
+    /* text-align: center; */
+}
+.col {
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.logos {
+    width: 105px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* email styling section */
 #myform {
     width: 50%;
     margin: 0 auto;
@@ -266,6 +281,8 @@ textarea::placeholder {
     opacity: .3;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* phone styling section */
 
 @media (max-device-width: 480px) {
     html {
@@ -317,6 +334,7 @@ textarea::placeholder {
         position: absolute;
         top: 575px;
         left: 10%;
+        
 
     }
     /* #projects {
@@ -337,6 +355,14 @@ textarea::placeholder {
         width: 100vw;
         margin: 0 auto;
     }
+
+/* Styling section for the logos (phone version) */
+    .logos {
+        /* height: 100px; */
+        max-width: 100px;
+    }
+
+
     .outer {
         width: 95vw;
     }

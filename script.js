@@ -27,6 +27,7 @@ document.getElementById("defaultOpen").click();
 //     )
 // }
 
+//var myform = document.getElementById('myform');
 var myform = $("form#myform");
 myform.submit(function (event) {
     event.preventDefault();
