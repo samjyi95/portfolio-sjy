@@ -2,12 +2,18 @@
     width: 100%;
     } */
 body {
-    background-color: black;
-    /* width: 100%; */
+    /* background-color: black; */
+    background: url(resources/wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: white;
+    padding-left: 20px;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -41,6 +47,7 @@ p {
 #projects {
     /* background-color: #2b2b2b; */
     background-color: #191919;
+    padding-top: 10px;
 }
 .row {
     color: white;
@@ -48,6 +55,7 @@ p {
 #Contact{
     /* background-color: #2b2b2b; */
     background-color: #191919;
+    padding-top: 10px;
 }
 .left-align {
     margin: 0;
@@ -117,11 +125,15 @@ p {
     width: 300px;
     border-radius: 50%;   
 }
+#resume {
+    display: flex;
+    justify-content: center;
+}
 #resumeIcon {
     width: 140px;
     height: 200px;
     margin-top: 40px;
-    text-align: center;
+    
 }
 #about {
     display: inline-flex;
@@ -147,6 +159,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* Styling for the projects version on webpage */
 .projectsWrapper {
     /* padding-right: 50px !important; */
     display: flex;
@@ -240,8 +254,12 @@ span {
 
 .icons{
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    
+}
+.icons img {
+    padding: 10px 5px 10px 5px; 
 }
 
 /* styling section for the logos (web version) */
@@ -288,6 +306,10 @@ textarea::placeholder {
     html {
         text-align: center;
         padding: 0;
+        position: relative;
+    }
+    body {
+        background-size: cover;
     }
     h1 {
         font-size: 40px;
@@ -298,6 +320,11 @@ textarea::placeholder {
         font-size: 30px;
         max-width: 100%;
         padding: 10px;
+        text-align: center;
+    }
+    h5 {
+        text-align: center;
+        margin-right: 0px;
     }
     /* .navbar {
         width: 100%;
@@ -317,6 +344,7 @@ textarea::placeholder {
     }
     .tabz{
         width: 100%;
+        margin: 0px;
     }
     .tablinks {
         width: 33%;
@@ -327,6 +355,9 @@ textarea::placeholder {
         padding: 0;
         margin: 20px auto;
         text-align: center;
+    }
+    .statements {
+        padding: 0px;
     }
     #coverpic {
         width: 300px;
